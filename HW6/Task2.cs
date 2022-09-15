@@ -6,9 +6,20 @@ using System.Threading.Tasks;
 
 namespace HW6
 {
+
+    //    Задание 2
+    //Создать базовый класс «Устройство» и производные
+    //классы «Чайник», «Микроволновка», «Автомобиль», «Пароход». С помощью конструктора установить имя каждого
+    //устройства и его характеристики.
+    //Реализуйте для каждого из классов методы:
+    //■ Sound — издает звук устройства (пишем текстом в
+    //консоль);    
+    //■ Show — отображает название устройства;
+    //■ Desc — отображает описание устройства.
+
     public abstract class Device
     {
-
+        
         public abstract string Song();
         public abstract string Show();
         public abstract string Desc();
@@ -17,6 +28,8 @@ namespace HW6
 
     public class Teapot : Device
     {
+
+
         public override string Desc()
         {
             return "Кипятит воду";
