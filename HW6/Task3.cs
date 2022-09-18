@@ -29,6 +29,96 @@ namespace HW6
 
     }
 
-    
+    public class Violin : MusicalInstrument
+    {
+        public override string Desc()
+        {
+            return "Корпус, гриф, 4 струны и смычок";
+        }
+
+        public override string History()
+        {
+            return "https://ru.wikipedia.org/wiki/Скрипка";
+        }
+
+        public override string Show()
+        {
+            return "Скрипка";
+        }
+
+        public override string Sound()
+        {
+            return "начало произведения времена года вивальди";
+        }
+    }
+
+    public class Trombone : MusicalInstrument
+    {
+        public override string Desc()
+        {
+            return "Медный духовой инструмент";
+        }
+
+        public override string History()
+        {
+            return "https://ru.wikipedia.org/wiki/Тромбон";
+        }
+
+        public override string Show()
+        {
+            return "Тромбон";
+        }
+
+        public override string Sound()
+        {
+            return "Звуки джаза";
+        }
+    }
+
+    public class Ukulele : MusicalInstrument
+    {
+        public override string Desc()
+        {
+            return "Маленькая гитара";
+        }
+
+        public override string History()
+        {
+            return "https://ru.wikipedia.org/wiki/Укулеле";
+        }
+
+        public override string Show()
+        {
+            return "Укулеле";
+        }
+
+        public override string Sound()
+        {
+            return "Гавайская мелодия";
+        }
+    }
+
+    public class Violoncello : MusicalInstrument
+    {
+        public override string Desc()
+        {
+            return "Большая скрипка на которой играют сидя, а не с плеча как на скрипке";
+        }
+
+        public override string History()
+        {
+            return "https://ru.wikipedia.org/wiki/Виолончель";
+        }
+
+        public override string Show()
+        {
+            return "Виолончель";
+        }
+
+        public override string Sound()
+        {
+            return "низкий скрипучий, но при этом нежный звук";
+        }
+    }
 
 }
