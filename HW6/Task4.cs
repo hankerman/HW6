@@ -118,7 +118,6 @@ namespace HW6
                 Console.WriteLine("Внимание!!! Опасность, Взрыв реактора!!!");                
                 Console.ForegroundColor = ConsoleColor.White;
 
-
             }
             else
             {
